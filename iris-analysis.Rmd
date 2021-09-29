@@ -1,0 +1,25 @@
+---
+title: "Remote Data Project"
+author: "Simon Schoelzel"
+output: pdf_document
+---
+
+```{r}
+iris
+```
+
+What is the mean `Sepal.Length` for `Species` Setosa?
+
+```{r}
+iris %>% 
+  filter(Species == "setosa") %>% 
+  summarise(mean = mean(Sepal.Length))
+```
+
+
+How many data points are in the `mtcars` data?
+
+```{r}
+
+```
+
