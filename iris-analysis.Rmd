@@ -23,7 +23,7 @@ iris %>%
 How many data points are in the `iris` data?
 
 ```{r}
-dim(iris)[1]
+dim(iris)[2]
 ```
 ```{r}
 nrow(iris)
